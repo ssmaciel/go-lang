@@ -13,7 +13,5 @@ func taskViewHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", taskViewHandler)
-	fmt.Println("Servidor iniciado...")
-	http.ListenAndServe(":5000", nil)
+	fmt.Println("Hello Full Cycle")
 }
